@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import'~bootstrap/scss/bootstrap.scss';
+@import "../node_modules/ng2-slim-loading-bar/style.css";
+
+.navbar-light .navbar-nav .active > .nav-link{
+    border-bottom: 2px solid #0878fb;
+}
+.outer-div{
+    padding: 60px;
+    margin-top:60px;
+    margin-bottom:30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search  {
+    .form-control-feedback{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    }
+}
+
+
+
+.slim-loading-bar-progress {
+    height: 4px !important;
+}
